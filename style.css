@@ -1,0 +1,82 @@
+img {
+    width: 200px;
+    border-radius: 50%;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+  }
+  h1 {
+    color:rgb(36, 161, 156);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900px; 
+    border: 1px solid rgb(250, 238, 231) ;
+  }
+  
+  .para {
+    color:rgb(50, 82, 136);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200; 
+    width: 50%;
+    margin: 10px auto;
+  }
+
+  h2 {
+    color:rgb(50, 82, 136);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; 
+  }
+
+  h3 {
+    color:rgb(217, 96, 152);
+   ; 
+  }
+
+  p{  
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    padding: 11px; 
+  }
+
+  .container {  
+    background-color: rgb(250, 238, 231);  
+    text-align: center;
+    list-style: none;.
+      /* width: 500px;   */
+      margin: 10px auto;
+      padding: 5px auto;
+
+    }
+  
+  .card {  
+    background-color: rgb(255, 250, 247);  
+    text-align: center;
+    list-style: none;
+    border-radius: 5%;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+  /* rgb(255, 238, 153) */
